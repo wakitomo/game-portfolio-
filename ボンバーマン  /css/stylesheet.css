@@ -1,0 +1,57 @@
+body {
+  background: #eee;
+
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.box {
+  position: relative;
+  left: -20px;
+  height: 40px;
+  width: 32%;
+  padding: 0.5em 1em;
+  margin: 2em 1rem;
+  color: #ffffff;
+  background: #1E368D;
+  border: solid 6px #52AB19;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-area {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: .5px 0;
+}
+
+
+#time {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin: .5px 0;
+}
+
+.man1 {
+  padding: 0.4rem 2rem;
+}
+
+canvas {
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 70%;
+  height: 80%;
+  margin: 0 auto;
+}
+
